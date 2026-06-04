@@ -1,0 +1,22 @@
+{
+  "name": "gfriction",
+  "description": "Marketplace for global Codex friction logging hooks and skills.",
+  "owner": {
+    "name": "Theo Stocchetti"
+  },
+  "plugins": [
+    {
+      "name": "gfriction-logs",
+      "description": "Global friction logging hooks and manual friction-fix workflows for Codex.",
+      "source": "./plugins/gfriction-logs",
+      "version": "0.1.2+codex.20260604200400",
+      "category": "engineering",
+      "tags": [
+        "hooks",
+        "friction",
+        "observability",
+        "maintenance"
+      ]
+    }
+  ]
+}
