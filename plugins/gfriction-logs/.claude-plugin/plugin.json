@@ -1,6 +1,6 @@
 {
   "name": "gfriction-logs",
-  "version": "0.1.2+codex.20260604200400",
+  "version": "0.1.3+codex.20260604190500",
   "description": "Global friction logging hooks and manual friction-fix workflows for Codex.",
   "author": {
     "name": "Theo Stocchetti"

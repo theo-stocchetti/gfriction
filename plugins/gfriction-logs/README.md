@@ -7,6 +7,9 @@ It has two parts:
 - `gfriction-logs`: hooks that record observable tool failures.
 - `gfriction-fix`: a skill for manual audit, reporting, reclassification, and cleanup.
 
+The plugin includes native Codex metadata in `.codex-plugin/plugin.json` and Claude-compatible
+metadata in `.claude-plugin/plugin.json`.
+
 ## Principles
 
 - Human-in-the-loop by default.

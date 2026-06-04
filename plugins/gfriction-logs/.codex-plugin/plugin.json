@@ -1,0 +1,39 @@
+{
+  "name": "gfriction-logs",
+  "version": "0.1.3+codex.20260604190500",
+  "description": "Global friction logging hooks and manual friction-fix workflows for Codex.",
+  "author": {
+    "name": "Theo Stocchetti",
+    "url": "https://github.com/theo-stocchetti"
+  },
+  "homepage": "https://github.com/theo-stocchetti/gfriction",
+  "repository": "https://github.com/theo-stocchetti/gfriction",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "hooks",
+    "friction",
+    "observability",
+    "maintenance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gfriction Logs",
+    "shortDescription": "Log observable Codex tool failures for manual cleanup.",
+    "longDescription": "Records observable tool failures with redacted evidence, groups recurring frictions by fingerprint, and provides a manual audit workflow for reviewing, reclassifying, closing, and reporting them.",
+    "developerName": "Theo Stocchetti",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/theo-stocchetti/gfriction",
+    "defaultPrompt": [
+      "Audit recent Codex frictions",
+      "Show recurring tool failures",
+      "Close a fixed friction"
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
